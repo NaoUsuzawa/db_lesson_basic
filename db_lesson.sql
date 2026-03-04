@@ -69,7 +69,7 @@ WHERE
 ORDER BY
   `created_at`;
 
-  -- peopleテーブルの中から、department_id が 1 のレコードを対象に、そのレコードが持つ name・email・age というカラムの値を取得し、created_at カラムの値を基準に昇順で並び替えて表示するクエリエ。
+  -- peopleテーブルの中から、department_id が 1 のレコードを対象に、そのレコードが持つ name・email・age というカラムの値を取得し、created_at カラムの値を基準に昇順で並び替えて表示するクエリ。
 
 -- Q7: 20代の女性と40代の男性の名前一覧
 SELECT name FROM people WHERE 
